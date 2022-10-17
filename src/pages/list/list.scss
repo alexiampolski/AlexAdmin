@@ -1,5 +1,7 @@
 .list{
+    display: flex;
+    .listContainer{
+         flex: 5
+    }
 
-    background-color: rebeccapurple;
-    color:white
 }
