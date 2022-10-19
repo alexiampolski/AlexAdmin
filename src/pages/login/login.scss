@@ -1,10 +1,15 @@
 .login{
     background: pink;
+   
     display: flex;
-    
+    min-height:auto;
+
     .loginContainer{
 
-        flex: 5;
+        flex: 8;
+        align-items: center;
+        justify-content: space-between;
+        
     }
 
 }

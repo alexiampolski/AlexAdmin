@@ -2,7 +2,10 @@
     flex: 1;
     border-right: 0.5px solid rgb(230, 227, 227);
     min-height: 100vh;
-    background-color: white;
+    height: 100vh;
+    -webkit-box-shadow: 2px 2px 10px 2px #897f7fb1; 
+    box-shadow: 2px 2px 10px 2px #897f7fb1;
+    background-color: rgba(236, 226, 215, 0.867);
   
     .top {
       height: 50px;

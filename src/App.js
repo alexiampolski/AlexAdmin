@@ -3,6 +3,7 @@ import { Login } from "./pages/login/Login";
 import { New } from "./pages/new/New";
 import { Single } from "./pages/single/Single";
 import { List } from "./pages/list/List";
+import {Dashboard} from './pages/dashboard/Dashboard'
 import {
   BrowserRouter,
   Routes,
@@ -27,6 +28,9 @@ function App() {
                 <Route index element={<List/>} />
                 <Route path=":prodId" element={<Single/>} />
                 <Route path="new" element={<New/>} />
+              </Route>  
+              <Route path='dashboard'>
+                <Route index element={<Dashboard/>} />
               </Route>  
    
           </Route>

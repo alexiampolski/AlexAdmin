@@ -30,7 +30,7 @@ const Sidebar = () => {
           <p className="title">MAIN</p>
 
           <Link
-            to='/login'
+            to='/dashboard'
             style={{ textDecoration: "none" }}
            >
               <li>
@@ -51,7 +51,7 @@ const Sidebar = () => {
           </Link>
 
           <Link 
-            to="/products/" 
+            to="/products" 
             style={{ textDecoration: "none" }}>
             <li>
               <StoreIcon className="icon" />
@@ -103,7 +103,7 @@ const Sidebar = () => {
       <div className="bottom">
         <div  className="colorOption"
           //onClick={() => dispatch({ type: "LIGHT" })}
-        ></div>
+        >gg</div>
         <div  className="colorOption"
         
           //onClick={() => dispatch({ type: "DARK" })}

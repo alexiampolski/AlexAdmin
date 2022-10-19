@@ -1,4 +1,11 @@
 .new{
-    background-color: rgb(195, 47, 47);
-    color: white
+    display: flex;
+    //background-color: rgba(198, 176, 176, 0.492);
+    //color: white;
+   
+    .newContainer{
+        flex: 8;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
