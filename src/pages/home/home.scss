@@ -3,9 +3,36 @@
 
 
     .homeContainer{
-        
-         flex: 8
+         flex: 8;
 
+        .others{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:39vw;
+            //min-height: 15vh;
+            border: 1px solid gray;
+
+            .circulatbar{
+
+                display: flex;
+                //flex-direction: column;
+                justify-content: flex-end;
+                align-items: center;
+                //border: 1px solid black;
+                width:45%;
+                //min-height: 15vh;
+
+                .legend{
+                    display: flex;
+                    flex-direction: column;
+                    align-items:space-between;
+
+
+                }    
+
+            }    
+        }    
     }
 
 }

@@ -1,0 +1,36 @@
+.nopage{
+    display: flex;
+    background: pink;
+    min-height:auto;
+    
+    .nopageContainer{
+        flex: 8;
+        align-items: center;
+        justify-content: space-between;
+        border: 4px solid blueviolet;
+        //position: relative;
+        .others{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:50%; 
+            height: 50%;
+            border: 1px solid gray;
+            position: relative;
+            //top:100;
+            //margin-left: 300;
+           .other1{
+                display: flex;
+                width:70%;
+                height:55%;
+                justify-content: flex-end;
+                align-items: flex-end;
+                position: absolute;
+                top:100px;
+                left: 250px;
+                border: 1px solid red;
+                cursor:pointer
+          }  
+        }
+    }
+}
